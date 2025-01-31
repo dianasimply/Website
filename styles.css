@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none !important;
 }
 
 body {
@@ -79,6 +80,8 @@ h2 {
 
 .project-card {
     background-color: #5e0072;
+    color: #e1bee7;
+    text-decoration: none !important;
     border-radius: 10px;
     padding: 1.5rem;
     width: 250px;
@@ -86,9 +89,13 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.project-card:hover {
+
+
+
+
+.project-card:hover, .project-card a:hover {
     transform: scale(1.05);
-}
+  }
 
 .social-links {
     display: flex;
